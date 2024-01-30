@@ -201,7 +201,7 @@
             end if
 
             if (alfa < 1) then ! eval cool side wind (eqn 25)
-               vinf_div_vesc = 1.3d0 ! this is the cool side galactic value
+               vinf_div_vesc = 2.6d0 ! this is the cool side galactic value
                vinf_div_vesc = vinf_div_vesc*pow_cr(Z/Zsolar,0.13d0) ! corrected for Z
                logMdot = &
                   - 6.697d0 &
@@ -257,7 +257,7 @@
             end if
 
             if (alfa < 1) then ! eval cool side wind (eqn 25)
-               vinf_div_vesc = 1.3d0 ! this is the cool side galactic value
+               vinf_div_vesc = 2.6d0 ! this is the cool side galactic value
                vinf_div_vesc = vinf_div_vesc*pow_cr(Z/Zsolar,0.13d0) ! corrected for Z
                logMdot = &
                   - 8.445 &                ! calibration where switch happens based on mdot_trans and L_trans observations
