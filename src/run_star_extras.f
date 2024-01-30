@@ -97,7 +97,6 @@
          real(dp), intent(out) :: w ! wind in units of Msun/year (value is >= 0)
          integer, intent(out) :: ierr
 
-
          real(dp) ::  L1, M1, T1, Zsolar, Y, Z, X, beta, center_h1, center_he4, surface_h1, surface_he4
          real(dp) ::  Z_init, X_c, X_c_init, Y_c_init, Gamma_e
          real(dp) :: alfa, w1, w2, Teff_jump, logMdot, dT, vinf_div_vesc, wlow, whigh
@@ -134,9 +133,7 @@
          else
             call eval_low_Gamma_Vink(wlow)
             call eval_high_Gamma_Vink(whigh)
-            
 
-            
             write(*,*) '+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++'
             write(*,*) 'Mdot used in evolution is the maximum of the two = ', log10_cr(MAX(wlow, whigh))
             write(*,*) '+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++'
