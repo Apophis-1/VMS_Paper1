@@ -5,7 +5,7 @@ Mass loss for modelling the evolution of classical massive stars (10-50 Msun) is
 2. VMS : Scaling from Vink et al. (2011) and absolute rate fixed by the concept of transition mass loss point from Vink et al (2012) to Arches cluster in the Galaxy and 30 Dor in the LMC
 
 
------ For high-metallicity VMS recipe -----
+----- For low-metallicity VMS recipe -----
 
 !! This recipe is only applicable for LMC-like or above. For low metallicity case, see VMS_paper2 repository
 
