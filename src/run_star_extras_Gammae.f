@@ -117,7 +117,7 @@
          Y = s% xa(s%net_iso(ihe4),1)   !surface Y
          Z = 1 - (Y + X)                !surface Z
 
-         Gamma_e = 10**(-4.813)*(1+X)*(L1/M1)
+         !Gamma_e = 10**(-4.813)*(1+X)*(L1/M1)
          
          Z_init = s% initial_z          !mdot scaling with Z_fe
 
