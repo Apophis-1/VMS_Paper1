@@ -15,8 +15,7 @@ The applicable Z range for the VMS mass loss framework in this study is 0.02 to 
 ----- Relevant files and what they do -----
 MESA version r12115
 1. run_iteration.py: python script to run multiple models back to back. 
-2. inlist_project_H and inlist_project_H_LOGS: for core H burning
-3. inlist_project_He and inlist_project_He_LOGS: for core He burning
-4. /src/run_stars_extras.f: run_stars file with the low Z VMS mass loss framework
+2. inlist_project and inlist_project_LOGS: for core H burning
+3. /src/run_stars_extras.f: run_stars file with the low Z VMS mass loss framework
 
 
