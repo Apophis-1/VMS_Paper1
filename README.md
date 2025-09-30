@@ -29,7 +29,7 @@ We use two different ways to estimate the transition mass loss point based on th
 **MESA version:** r12115
 
 1. **`run_iteration.py`**: Python script to run multiple models back to back
-2. **`inlist_project`** and **`inlist_project_LOGS`**: MESA inlists for core H burning evolution
+2. **`inlist_project`** and **`inlist_project_LOGS`**: MESA inlists for core hydrogen burning evolution
 3. **`/src/run_star_extras.f`**: run_stars file with the high metallicity VMS mass loss framework implementation
 
 ## Usage
