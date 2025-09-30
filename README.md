@@ -1,4 +1,7 @@
-MESA Inlist and run_stars_extras file to reproduce the results from Sabhahit et. al (2022) - Mass-loss implementation and temperature evolution of very massive stars (https://arxiv.org/pdf/2205.09125.pdf)
+MESA Inlist and run_stars_extras file to reproduce the results from Sabhahit et. al (2022) - Mass-loss implementation and temperature evolution of very massive stars
+PDF links: 
+https://arxiv.org/pdf/2205.09125.pdf
+https://academic.oup.com/mnras/article/514/3/3736/6592150
 
 Mass loss from optically-thin winds of classical massive stars (10-50 Msun) is typically taken from Vink et al. (2000, 2001). The mass loss from Vink et al. (2000, 2001) has a shallow dependence on the Eddington parameter. However a steeper scaling of mass loss in proximity to the Eddington limit has been found in Vink et al. (2011). This study implements mass loss scaling from Vink et al. (2011) for very massive stars. The switch from a shallow to steeper scaling occurs at the transition mass loss point as proposed in Vink et al. (2012).
 
