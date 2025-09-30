@@ -22,7 +22,7 @@ We use two different ways to estimate the transition mass loss point based on th
 ### Summary of Mass Loss Used
 
 1. **O stars:** Vink et al. (2000, 2001)
-2. **VMS:** Scaling from [Vink et al. (2011)](https://ui.adsabs.harvard.edu/abs/2011A%26A...531A.132V/abstract) and absolute rate fixed by the concept of transition mass loss point from [Vink & Gräfener (2012)](https://ui.adsabs.harvard.edu/abs/2012ApJ...751L..34V/abstract) calibrated to Arches cluster in the Galaxy and 30 Dor in the LMC
+2. **VMS:** Scaling from [Vink et al. (2011)](https://ui.adsabs.harvard.edu/abs/2011A%26A...531A.132V/abstract) and absolute rate given by the concept of transition mass loss point from the Arches cluster in the Galaxy and 30 Dor in the LMC using eta ~ 0.6 from [Vink & Gräfener (2012)](https://ui.adsabs.harvard.edu/abs/2012ApJ...751L..34V/abstract)
 
 ## Relevant Files and What They Do
 
